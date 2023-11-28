@@ -321,7 +321,7 @@ button {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background: url("../images/banner.jpg");
      padding: 310px 0px 0px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -578,7 +578,7 @@ button {
      border-radius: 10px;
      transition: ease-in all 0.5s;
      margin-bottom: 30px;
-     height: 490px;
+     height: 350px;
 }
 
 .we_do .we_box span {
@@ -614,6 +614,11 @@ button {
 
 #hover_color:hover.we_box {
      background-color: #37139a;
+     transition: ease-in all 0.5s;
+}
+
+#hover_color_1:hover.we_box {
+     background-color: #FFFFFF;
      transition: ease-in all 0.5s;
 }
 
@@ -939,7 +944,7 @@ ul.location_form li a {
 /** footer **/
 
 .footer {
-     background: #1b1b1b;
+     background: #37139a;
      padding-top: 90px;
      margin-top: 90px;
      text-align: center;
